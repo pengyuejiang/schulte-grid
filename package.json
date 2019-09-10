@@ -1,0 +1,23 @@
+{
+  "name": "schulte-grid",
+  "version": "1.0.0",
+  "description": "A concentration exercise game written with front-end technologies along with NodeJS and express, packaged with electron.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenewpyjiang/schulte-grid.git"
+  },
+  "author": "Pengyue Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenewpyjiang/schulte-grid/issues"
+  },
+  "homepage": "https://github.com/thenewpyjiang/schulte-grid#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
