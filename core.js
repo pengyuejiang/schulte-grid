@@ -1,7 +1,7 @@
 // Generate a random number series according to difficulty.
 function generateRandNumSeries(difficulty) {
     var numSeries = [];
-    for (var i = 0; i < difficulty; i++) {
+    for (var i = 0; i < difficulty * difficulty; i++) {
         // Create a candidate integer
         var temp = Math.ceil(Math.random() * difficulty * difficulty);
         // Check for repetition
@@ -26,7 +26,7 @@ function decodeDifficulty(difficulty) {
             return 8;
             break;
         case "hard":
-            return 10;
+            return 9;
             break;
         default:
             return 6;

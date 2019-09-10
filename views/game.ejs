@@ -14,7 +14,17 @@
             <button id="resetBtn">New Game</button>
         </div>
         <!-- The grid -->
-        <div id="grid"></div>
+        <div id="grid">
+            <table cellspacing="0">
+                <% for (var i = 0; i < difficulty; i++) { %>
+                    <tr>
+                        <% for (var j = 0; j < difficulty; j++) { %>
+                            <td><%= numSeries[difficulty * i + j] %></td>
+                        <% } %>
+                    </tr>
+                <% } %>
+            </table>
+        </div>
         <div id="footer">
             <p>Instructions: Schulte Grid is a concentration exercise. To succeed, the player has to click numbers starting with 1 in ascending order as fast as possible.</p>
         </div>
