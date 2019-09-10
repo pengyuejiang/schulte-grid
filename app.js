@@ -10,9 +10,9 @@ app.use(express.static("public"));
 app.get("/:difficulty", function(req, res) {
     printLog("GET /" + req.params.difficulty);
     res.render("game.ejs", {
-        difficulty: req.params.difficulty
+        difficulty: req.params.difficulty,
+        numSeries: core.getRandNumSeries
     });
-    console.log(core.foo);
 });
 
 app.get("*", function(req, res) {
