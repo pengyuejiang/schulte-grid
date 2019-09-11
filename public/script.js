@@ -18,10 +18,8 @@ for (var i = 0; i < tds.length; i++) {
                 var timeTaken = endTime - startTime;
                 // document.querySelector("table").classList.add("vanish");
                 document.querySelector("#grid").innerHTML =
-                    '<p id="message">' + 'You have finished in ' +
-                    '<span id="highlight">' +
-                    Math.round(timeTaken / 1000) +
-                    "</span>" + " seconds!" + "</p>";
+                    '<p id="message">You have finished in <span id="highlight">' +
+                    Math.round(timeTaken / 1000) + '</span> seconds!</p>';
             }
         }
     });
