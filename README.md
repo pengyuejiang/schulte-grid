@@ -3,5 +3,11 @@ A concentration exercise game written with front-end technologies along with Nod
 
 ## Usage
 
-Change to the repository directory and enter `node app.js` to start the game on `http://localhost:3000`.
+Change into the repository directory, and enter the following in the command line:
+
+```shell
+node app.js
+```
+
+Now enter the URL `http://localhost:3000` in your browser to start the game.
 
